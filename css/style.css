@@ -21,7 +21,6 @@
   margin: 0;
   padding: 0;
 }
-
 .premiere img {
   width: 100%;
 }
@@ -49,28 +48,17 @@ a {
   text-decoration: none;
   margin-right: 10px;
 }
-.deuxieme {
-  background-image: url("../img/zelda-bg_pattern_brown.png");
-  display: flex;
+.deuxieme{
+  background-image:url("/img/zelda-bg_pattern_brown.png");
+
 }
-.white {
+.d p{
   color: white;
-}
-.titre {
-  display: flex;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-}
-.topbrown {
   text-align: center;
 }
-.basbrown {
-  bottom: 0;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+.d img{
+  position: relative;
+  left: 20%;
 }
 .troisieme {
   background-image: url("../img/zelda-bg_pattern_white.png");
