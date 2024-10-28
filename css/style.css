@@ -128,17 +128,30 @@ a {
   }
 
 }
-
-.imgtroiss {
-  width: 450px;
-}
 .quatrieme {
   background-image: url("../img/zelda-bg_pattern_brown.png");
   display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  div{
+    width: 50%;;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    width: 100%;
+  }
+  h1{
+    font-size: xx-large;
+  }
+  p{
+    font-size: large;
+  }
 }
-.quatreimg {
-  width: 450px;
-}
+
 .cinquieme {
   background-image: url("../img/zelda-bg_pattern_white.png");
   display: flex;
