@@ -48,29 +48,87 @@ a {
   text-decoration: none;
   margin-right: 10px;
 }
-.deuxieme{
-  background-image:url("/img/zelda-bg_pattern_brown.png");
-
-}
-.d p{
-  color: white;
+.deuxieme {
+  background-image: url("/img/zelda-bg_pattern_brown.png");
+  display: flex;
   text-align: center;
-}
-.d img{
-  position: relative;
-  left: 20%;
+  padding: 100px;
+  width: 100%;
+  justify-content: center;
+
+  > div {
+    width: 70%;
+  }
+  .imgetarticle {
+    display: flex;
+    padding: 4rem;
+    gap: 10rem;
+    h1 {
+      padding-top: 5rem;
+    }
+  }
+  h1 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  img {
+    position: relative;
+    left: 20%;
+    float: left;
+  }
+
+  article {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    float: right;
+    p {
+      width: 60%;
+    }
+  }
 }
 .troisieme {
   background-image: url("../img/zelda-bg_pattern_white.png");
   display: flex;
+  justify-content: center;
+  padding: 4rem;
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    gap: 2rem;
+    >div{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img{
+        width: 33%;
+      }
+    }
+  }
+  img{
+    width: 100%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 25px;
+    width: 100%;
+  }
+
 }
-.img img {
-  width: 250px;
-  padding-left: -50px;
-  display: flex;
-  bottom: 0;
-  margin-bottom: 0;
-}
+
 .imgtroiss {
   width: 450px;
 }
